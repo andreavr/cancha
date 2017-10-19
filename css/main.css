@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+/*dando color y forma a la parte del grass de la cancha*/
+.background {
+  background-color: #8CB27C;
+  width: 1300px;
+  height: 600px;
+  position: relative;
+}
+/*dando estilo al borde de la cancha*/
+.line {
+  width: 1270px;
+  height: 555px;
+  border: solid 5px white;
+  position: absolute;
+  top:30px;
+  left: 22px;
+}
+/*colocando arco izquierdo*/
+.left {
+  width: 145px;
+  height: 270px;
+  border: solid 5px white;
+  position: absolute;
+  top: 175px;
+  left: 22px;
+}
+/*colocando arco derecho*/
+.right {
+  width: 145px;
+  height: 270px;
+  border: solid 5px white;
+  position: absolute;
+  top: 175px;
+  right: 74px;
+}
+/*colocando circulo en el medio de la cancha*/
+.circle {
+  width: 270px;
+  height: 270px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 5px white;
+  position: absolute;
+  top: 175px;
+  left: 38%;
+}
+/*poniendo la pelota 1*/
+.ball1 {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 182px;
+  left: 135px;
+}
+/*poniendo la pelota 2*/
+.ball2 {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 87px;
+  left: 49%;
+
+}
+/*poniendo la pelota 3*/
+.ball3 {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 390px;
+  right: 230px;
+}
